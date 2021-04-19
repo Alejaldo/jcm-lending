@@ -1,0 +1,13 @@
+article {
+  display: grid;
+}
+
+.products {
+  margin: 2em;
+  display: grid;
+  gap: 40px;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-content: center;
+  grid-auto-columns: 400px;
+}
