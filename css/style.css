@@ -68,6 +68,7 @@ header h1 {
   background: linear-gradient(to bottom, #f2994a, #f2c94c);
   color: rgb(75, 75, 75);
   padding: auto 0;
+  scroll-margin-top: 7em;
 }
 
 .products-type {
