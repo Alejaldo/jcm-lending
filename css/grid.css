@@ -11,3 +11,8 @@ article {
   align-content: center;
   grid-auto-columns: 400px;
 }
+
+.products-type {
+  display: grid;
+  grid-template-rows: 1fr 6fr 1fr 1fr;
+}

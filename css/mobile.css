@@ -1,3 +1,21 @@
+@media only screen and (max-width: 1175px) {
+  main {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 954px) {
+  main {
+    margin-top: 193px;
+  }
+}
+
 @media only screen and (max-width: 950px) {
   .products {
     display: block;
@@ -7,21 +25,69 @@
   }
 }
 
+@media only screen and (max-width: 879px) {
+  main {
+    margin-top: 219px;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  header h1 {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 779px) {
+  main {
+    margin-top: 265px;
+  }
+}
+
 @media only screen and (max-width: 750px) {
   .image-content {
-    float: none !important;
-    display: block !important;
-    margin: 0 auto !important;
+    float: none;
+    display: block;
+    margin: 0 auto;
   }
 }
 
 @media only screen and (max-width: 650px) {
+  main {
+    margin-top: 387px;
+  }
   header a {
     float: none;
     display: block;
     text-align: left;
   }
+  header h1 {
+    margin-right: 0px;
+  }
   .header-right {
     float: none;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  article {
+    display: block;
+  }
+  header {
+    position:unset;
+    width:unset;
+  }
+  header img {
+    width: 70px;
+    height: 70px;
+  }
+  main {
+    margin-top: 0px;
+  }
+  .products-type {
+    margin: 10px 0px;
+  }
+  .products {
+    margin: 0.5em;
   }
 }
