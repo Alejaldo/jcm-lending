@@ -1,0 +1,3 @@
+(function ($) {
+    $('.about').paroller(); 
+})(jQuery);
