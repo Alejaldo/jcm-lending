@@ -63,6 +63,12 @@ header h1 {
   left: 10px;
 }
 
+.intro {
+  background: url(../images/bg.jpg) repeat center;
+  background-size: cover;
+  min-height: 500px;
+}
+
 .content-header {
   text-align: center;
   background: linear-gradient(to bottom, #f2994a, #f2c94c);
@@ -127,9 +133,6 @@ footer p {
 .about {
   font-size: 20px;
   font-family: 'Merienda';
-  color: gold;
-  background: url(../images/solar-back.jpg) repeat bottom;
-  background-size: cover;
 }
 
 .about-content {

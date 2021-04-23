@@ -1,3 +1,3 @@
 (function ($) {
-    $('.about').paroller(); 
+    $('.intro').paroller();
 })(jQuery);
