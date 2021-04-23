@@ -2,6 +2,13 @@ article {
   display: grid;
 }
 
+.intro {
+  margin: 2%;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 10px;
+}
+
 .products {
   margin: 2em;
   display: grid;

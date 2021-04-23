@@ -6,7 +6,7 @@ html {
 main {
   background: linear-gradient(to right, #8e9eab, #eef2f3);
   width: 80%;
-  margin: 155px auto 0 auto;
+  margin: 160px auto 0 auto;
 }
 
 article {
@@ -16,7 +16,6 @@ article {
 header {
   overflow: hidden;
   background: linear-gradient(to bottom, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
-  opacity: 0.9;
   padding: 20px 10px;
   position: fixed;
   top: 0;
@@ -63,10 +62,21 @@ header h1 {
   left: 10px;
 }
 
-.intro {
-  background: url(../images/bg.jpg) repeat center;
-  background-size: cover;
-  min-height: 500px;
+.parallax {
+  padding: 2.5em;
+  margin: 2em, auto;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.parallax-1 {
+  background:  rgba(0, 0, 0, 0) url("../images/solar-back.jpg") no-repeat scroll center / cover;
+}
+
+.parallax-2 {
+  background: rgba(0, 0, 0, 0) url("../images/space.jpg") no-repeat scroll center 2px / cover;
 }
 
 .content-header {
